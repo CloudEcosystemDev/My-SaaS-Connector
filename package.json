@@ -1,0 +1,37 @@
+{
+  "name": "my-saas-connector",
+  "version": "1.0.0",
+  "description": "A sample connector for My SaaS service, designed for the flowmate.io integration platform",
+  "scripts": {
+    "test": "NODE_ENV=test mocha spec/* --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudEcosystemDev/My-SaaS-Connector.git"
+  },
+  "keywords": [
+    "flowmate",
+    "connector",
+    "integration",
+    "saas"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@openintegrationhub/ferryman": "2.4.4",
+    "axios": "1.7.2",
+    "dayjs": "^1.11.11"
+  },
+  "devDependencies": {
+    "bunyan": "1.8.15",
+    "chai": "4.4.1",
+    "dotenv": "16.4.5",
+    "eslint": "8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.29.1",
+    "mocha": "10.6.0",
+    "sinon": "18.0.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

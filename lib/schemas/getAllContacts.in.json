@@ -1,0 +1,9 @@
+{
+  "type": "object",
+  "properties": {
+    "lastUpdated": {
+      "required": false,
+      "type": "string"
+    }
+  }
+}
