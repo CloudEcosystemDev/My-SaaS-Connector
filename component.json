@@ -1,0 +1,29 @@
+{
+  "title": "My SaaS Connector",
+  "description": "Connector for the MySaaS API",
+  "triggers": {
+    "lookup": {
+      "main": "./lib/lookups/lookup.js",
+      "title": "Function to run a lookup",
+      "description": "Function to call an internal trigger"
+    },
+    "getAllContacts": {
+      "title": "Get All Contacts",
+      "main": "./lib/triggers/getAllContacts.js",
+      "metadata": {
+        "in": "./lib/schemas/getAllContacts.in.json",
+        "out": "./lib/schemas/getAllContacts.out.json"
+      }
+    }
+  },
+  "actions": {
+    "createContact": {
+      "title": "Create Contact",
+      "main": "./lib/actions/createContact.js",
+      "metadata": {
+        "in": "./lib/schemas/createContact.in.json",
+        "out": "./lib/schemas/createContact.out.json"
+      }
+    }
+  }
+}

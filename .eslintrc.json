@@ -8,9 +8,11 @@
   "extends": [
     "airbnb-base"
   ],
+  "plugins": [
+    "mocha"
+  ],
   "parserOptions": {
-    "ecmaVersion": 12,
-    "sourceType": "module"
+    "ecmaVersion": 12
   },
   "rules": {
     "indent": ["error", 2],
@@ -19,6 +21,7 @@
     "comma-dangle": ["error", "never"],
     "arrow-parens": ["error", "as-needed"],
     "no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
-    "no-plusplus": "off"
+    "no-plusplus": "off",
+    "mocha/no-exclusive-tests": "error"
   }
 }
