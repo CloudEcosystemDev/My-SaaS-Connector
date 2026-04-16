@@ -18,7 +18,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@openintegrationhub/ferryman": "2.4.4",
-    "axios": "1.7.2",
+    "axios": "1.15.0",
     "dayjs": "^1.11.11"
   },
   "devDependencies": {
